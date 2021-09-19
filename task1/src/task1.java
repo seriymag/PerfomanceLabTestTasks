@@ -31,15 +31,14 @@ public class task1 {
         int step1 = step;
 
 
-        while (end != list.get(0)){
+        while (end != list.get(0)) {
             if (step1 <= list.size()) {
                 route.add(list.get(step1 - 1));
                 end = list.get(step1 - 1);
                 step1 = step1 + step - 1;
 
 
-            }
-            else {
+            } else {
                 List<Integer> listCopy = new ArrayList<>(list);
                 list.addAll(listCopy);
             }

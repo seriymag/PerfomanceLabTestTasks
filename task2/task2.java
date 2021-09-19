@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class task2 {
-        private static double x;
-        private static double y;
-        private static double r;
+    private static double x;
+    private static double y;
+    private static double r;
 
 
     public static void main(String[] args) throws IOException {

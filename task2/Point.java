@@ -1,8 +1,8 @@
 public class Point {
 
     double x;
-     double y;
-     int location;
+    double y;
+    int location;
 
     public Point(double x, double y) {
         this.x = x;
@@ -10,11 +10,11 @@ public class Point {
     }
 
 
-    public  String  getInfo() {
+    public String getInfo() {
         String x = Double.toString(getX());
         String y = Double.toString(getY());
         String location = Double.toString(getLocation());
-        return  x + " " + y + " " + location;
+        return x + " " + y + " " + location;
 
     }
 
